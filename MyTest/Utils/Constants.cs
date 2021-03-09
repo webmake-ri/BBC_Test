@@ -7,6 +7,7 @@ namespace MyTest.Utils
     public class Constants
     {
         public const string Site_Url = "https://www.bbc.com/";
+        public const string News_Url = "https://www.bbc.com/news";
         public const string UserEmail = "onlyformytesting2021@gmail.com";
         public const string EmptyEmail = "";
         public const string UncorrectEmail = "onlyformytesting2021";

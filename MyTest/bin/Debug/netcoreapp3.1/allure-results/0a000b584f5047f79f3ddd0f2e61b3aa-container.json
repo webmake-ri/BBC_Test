@@ -1,0 +1,44 @@
+{
+  "uuid": "19164bc3-bd49-4d0b-9141-d45dd6d5f225-tc-0-1000",
+  "name": "MyTest.Tests.EmptyEmailLoginTest",
+  "children": [
+    "8adf3544-8606-49b5-9743-247079a93393-tr-0-1004"
+  ],
+  "befores": [
+    {
+      "name": "BeforeTest",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1615290689998,
+      "stop": 1615290689998
+    }
+  ],
+  "afters": [
+    {
+      "name": "AfterTest",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1615290689998,
+      "stop": 1615290689998
+    }
+  ],
+  "links": [],
+  "start": 1615290670368,
+  "stop": 1615290690008
+}

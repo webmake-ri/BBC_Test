@@ -1,0 +1,44 @@
+{
+  "uuid": "38d64d79-17f6-42b1-ba07-0b35c8731cf9-tc-0-1000",
+  "name": "MyTest.Tests.CorrectLoginTest",
+  "children": [
+    "b84d3358-5ac2-40b6-9875-367fa169e507-tr-0-1001"
+  ],
+  "befores": [
+    {
+      "name": "BeforeTest",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1615292375637,
+      "stop": 1615292375637
+    }
+  ],
+  "afters": [
+    {
+      "name": "AfterTest",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1615292375638,
+      "stop": 1615292375638
+    }
+  ],
+  "links": [],
+  "start": 1615292341459,
+  "stop": 1615292375731
+}

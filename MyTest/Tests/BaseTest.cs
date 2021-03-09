@@ -70,12 +70,12 @@ namespace MyTest
             Assert.That(loginPage.GetWebElement(loginPage._signInButton).Displayed, Is.True);
         }
         [Test]
-        public void OpenHomePageTest()
+        public void OpenNewsPageTest()
         {
             mainPage.OpenStartUrl();
-            loginPage.Login(Constants.UserEmail, Constants.UserPassword);
-            loginPage.OpenHomePage();
-            Assert.AreEqual(Constants.Site_Url, loginPage.GetUrlThisWindow());
+            mainPage.OpenNewsPage();
+            Console.WriteLine("URL страницы: " + Driver.driver.Url);
+            Assert.AreEqual(Constants.News_Url, Driver.driver.Url);
         }
         [Test]
         public void EditUserNameTest()

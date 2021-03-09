@@ -1,0 +1,44 @@
+{
+  "uuid": "9f1db5d4-8498-4686-bad5-b79e91ecb594-tc-0-1000",
+  "name": "MyTest.Tests.LogoutTest",
+  "children": [
+    "9e39b573-8862-4eef-baf9-28754543f28d-tr-0-1006"
+  ],
+  "befores": [
+    {
+      "name": "BeforeTest",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1615290746674,
+      "stop": 1615290746674
+    }
+  ],
+  "afters": [
+    {
+      "name": "AfterTest",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1615290746674,
+      "stop": 1615290746674
+    }
+  ],
+  "links": [],
+  "start": 1615290712397,
+  "stop": 1615290746678
+}

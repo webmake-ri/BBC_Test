@@ -24,7 +24,9 @@ namespace MyTest.Core
             {
                 ChromeOptions options = new ChromeOptions();
                 options.AddArgument("--start-maximized");
-                driver = new ChromeDriver(options);
+                options.AddArgument("no--sandbox");
+                driver = new ChromeDriver(ChromeDriverService.CreateDefaultService(), options, TimeSpan.FromMinutes(3));
+                driver.Manage().Timeouts().PageLoad.Add(System.TimeSpan.FromSeconds(30));
             }
 
             EventFiringWebDriver eventsDriver = new EventFiringWebDriver(driver);
@@ -45,6 +47,8 @@ namespace MyTest.Core
         }
         private static void ElementClicking(object sender, WebElementEventArgs e)
         {
+            WebDriverWait wait = new WebDriverWait(driver, TimeSpan.FromSeconds(10));
+            wait.Until(ExpectedConditions.ElementToBeClickable(e.Element));
             ScrollToElement(e.Element);
         }
         public static void ScrollToElement(IWebElement e)
@@ -57,7 +61,7 @@ namespace MyTest.Core
                  "image/png",
                  driver.TakeScreenshot().AsByteArray);
         }
-        static public void Destroy()
+        public static void Destroy()
         {
             if (driver != null)
             {

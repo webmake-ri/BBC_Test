@@ -1,0 +1,63 @@
+{
+  "uuid": "9ce3f6a7-9562-4834-9bb6-cf7bd75b8060-tr-0-1008",
+  "historyId": "MyTest.Tests.EditUserNameTest",
+  "fullName": "MyTest.Tests.EditUserNameTest",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "WIN-4NQL73GRVUL"
+    },
+    {
+      "name": "testClass",
+      "value": "MyTest.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "EditUserNameTest"
+    },
+    {
+      "name": "package",
+      "value": "MyTest.Tests"
+    }
+  ],
+  "links": [],
+  "name": "EditUserNameTest",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "EditUserNameTest",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "5487670ed740439c8cde105bdf50cd24-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1615292375766,
+      "stop": 1615292418739
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1615292375766,
+  "stop": 1615292418740
+}

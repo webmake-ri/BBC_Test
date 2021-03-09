@@ -21,7 +21,6 @@ namespace MyTest.Pages
         private readonly By _editUserNameButton = By.XPath("//a[contains(@aria-label, 'Edit Display name')]");
         private readonly By _editUserNameInput = By.XPath("//input[contains(@id, 'displayName-input')]");
         private readonly By _editUserNameSubmit = By.XPath("//button[contains(@type, 'submit')]");
-        private readonly By _footerHomeButton = By.XPath("//div[contains(@class, 'orb-footer-primary-links')]//li[contains(@class, 'orb-nav-homedotcom')]/a");
         public readonly By _assertLogin = By.XPath("//div[contains(@aria-live,'assertive')]");
 
         public void Login(string login, string password)
@@ -58,15 +57,6 @@ namespace MyTest.Pages
             WaitForDisplayedAndClicable(_singOutButton);
             GetWebElement(_singOutButton).Click();
             WaitForDisplayed(_signInButton);
-        }
-        public void OpenHomePage()
-        {
-            WaitForDisplayedAndClicable(_footerHomeButton);
-            GetWebElement(_footerHomeButton).Click();
-        }
-        public string GetUrlThisWindow()
-        {
-            return Driver.CurrentDriver.Url;
         }
         public void EditUserDisplayName(string nextUserName)
         {

@@ -1,0 +1,44 @@
+{
+  "uuid": "440fed50-d9a1-4749-a63a-2512695daf25-tc-0-1000",
+  "name": "MyTest.Tests.EmptyPasswordLoginTest",
+  "children": [
+    "f0283682-0b96-4b6e-91a7-cdac83fdd8ac-tr-0-1002"
+  ],
+  "befores": [
+    {
+      "name": "BeforeTest",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1615288871393,
+      "stop": 1615288871393
+    }
+  ],
+  "afters": [
+    {
+      "name": "AfterTest",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1615288871393,
+      "stop": 1615288871393
+    }
+  ],
+  "links": [],
+  "start": 1615288847249,
+  "stop": 1615288871400
+}

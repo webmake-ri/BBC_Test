@@ -4373,11 +4373,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\рома\\Visual\\TestProject\\BBC\\MyTest\\MyTest\\MyTest.csproj",
+      "projectUniqueName": "C:\\Users\\admin\\Desktop\\bc\\MyTest\\MyTest.csproj",
       "projectName": "MyTest",
-      "projectPath": "F:\\рома\\Visual\\TestProject\\BBC\\MyTest\\MyTest\\MyTest.csproj",
+      "projectPath": "C:\\Users\\admin\\Desktop\\bc\\MyTest\\MyTest.csproj",
       "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-      "outputPath": "F:\\рома\\Visual\\TestProject\\BBC\\MyTest\\MyTest\\obj\\",
+      "outputPath": "C:\\Users\\admin\\Desktop\\bc\\MyTest\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",

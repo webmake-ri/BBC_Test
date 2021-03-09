@@ -1,0 +1,63 @@
+{
+  "uuid": "b7420b8a-c265-4fde-a4fa-a421028f8fb4-tr-0-1007",
+  "historyId": "MyTest.Tests.OpenNewsPageTest",
+  "fullName": "MyTest.Tests.OpenNewsPageTest",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "WIN-4NQL73GRVUL"
+    },
+    {
+      "name": "testClass",
+      "value": "MyTest.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "OpenNewsPageTest"
+    },
+    {
+      "name": "package",
+      "value": "MyTest.Tests"
+    }
+  ],
+  "links": [],
+  "name": "OpenNewsPageTest",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "OpenNewsPageTest",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "80adb46263444c23af380e8f2e6f9a52-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1615292234231,
+      "stop": 1615292256890
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1615292234229,
+  "stop": 1615292256902
+}

@@ -1,0 +1,72 @@
+{
+  "uuid": "71666ae8-de8b-4c96-b8ff-7564280d91e4-tr-0-1007",
+  "historyId": "MyTest.Tests.OpenHomePageTest",
+  "fullName": "MyTest.Tests.OpenHomePageTest",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "WIN-4NQL73GRVUL"
+    },
+    {
+      "name": "testClass",
+      "value": "MyTest.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "OpenHomePageTest"
+    },
+    {
+      "name": "package",
+      "value": "MyTest.Tests"
+    }
+  ],
+  "links": [],
+  "name": "OpenHomePageTest",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <a href=\"https://www.bbc.com/\">...</a> is not clickable at point (422, 909). Other element would receive the click: <div class=\"orb-footer-inner\" role=\"navigation\" aria-label=\"BBC\">...</div>\n  (Session info: chrome=89.0.4389.82)",
+    "trace": "   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebElement.Click()\r\n   at OpenQA.Selenium.Support.Events.EventFiringWebDriver.EventFiringWebElement.Click()\r\n   at MyTest.Pages.LoginPage.OpenHomePage() in F:\\рома\\Visual\\TestProject\\BBC\\MyTest\\MyTest\\Pages\\LoginPage.cs:line 65\r\n   at MyTest.Tests.OpenHomePageTest() in F:\\рома\\Visual\\TestProject\\BBC\\MyTest\\MyTest\\Tests\\BaseTest.cs:line 77"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "OpenHomePageTest",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <a href=\"https://www.bbc.com/\">...</a> is not clickable at point (422, 909). Other element would receive the click: <div class=\"orb-footer-inner\" role=\"navigation\" aria-label=\"BBC\">...</div>\n  (Session info: chrome=89.0.4389.82)",
+        "trace": "   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebElement.Click()\r\n   at OpenQA.Selenium.Support.Events.EventFiringWebDriver.EventFiringWebElement.Click()\r\n   at MyTest.Pages.LoginPage.OpenHomePage() in F:\\рома\\Visual\\TestProject\\BBC\\MyTest\\MyTest\\Pages\\LoginPage.cs:line 65\r\n   at MyTest.Tests.OpenHomePageTest() in F:\\рома\\Visual\\TestProject\\BBC\\MyTest\\MyTest\\Tests\\BaseTest.cs:line 77"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Screenshot [14:22:23]",
+          "source": "7e820f6192b74a69ae66d2dea50404c7-attachment",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "435e61e3fc92414aad4b371afe9a7a66-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1615288906174,
+      "stop": 1615288949314
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1615288906174,
+  "stop": 1615288949314
+}

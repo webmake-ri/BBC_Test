@@ -1,0 +1,44 @@
+{
+  "uuid": "d148c5e6-3d4a-42b5-8d3c-024d96cdfcd8-tc-0-1000",
+  "name": "MyTest.Tests.OpenNewsPageTest",
+  "children": [
+    "271d10d0-ae5d-4153-96c1-45ae091b7380-tr-0-1007"
+  ],
+  "befores": [
+    {
+      "name": "BeforeTest",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1615292503325,
+      "stop": 1615292503325
+    }
+  ],
+  "afters": [
+    {
+      "name": "AfterTest",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1615292503325,
+      "stop": 1615292503325
+    }
+  ],
+  "links": [],
+  "start": 1615292491912,
+  "stop": 1615292503336
+}

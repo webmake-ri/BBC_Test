@@ -1,0 +1,44 @@
+{
+  "uuid": "335163d6-e081-4cf8-bb9b-3f63398e3a43-tc-0-1000",
+  "name": "MyTest.Tests.UncorrectPasswordLoginTest",
+  "children": [
+    "bf77bbae-6e38-48e4-a9c5-991c09822446-tr-0-1003"
+  ],
+  "befores": [
+    {
+      "name": "BeforeTest",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1615290838051,
+      "stop": 1615290838051
+    }
+  ],
+  "afters": [
+    {
+      "name": "AfterTest",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1615290838051,
+      "stop": 1615290838051
+    }
+  ],
+  "links": [],
+  "start": 1615290810292,
+  "stop": 1615290838055
+}

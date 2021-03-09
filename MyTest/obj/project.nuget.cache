@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "27WYr9jfhSzO0KXb81sc8NfnAxmN4EFsw3kYMQ4KOOh6FWhY3ESgF3Nw+rhiOGQah/o2GB4okVZGHqebaajciw==",
+  "dgSpecHash": "NxLJv4h4l0MyIzA2KdLzEYNL0MZFerqfRaTKar2dBHOSVs7xcsCoBHZrYKusYWCAzUOp3rWptvHABanYL3UjIQ==",
   "success": true,
-  "projectFilePath": "F:\\рома\\Visual\\TestProject\\BBC\\MyTest\\MyTest\\MyTest.csproj",
+  "projectFilePath": "C:\\Users\\admin\\Desktop\\bc\\MyTest\\MyTest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\admin\\.nuget\\packages\\allure.commons\\3.5.0.4\\allure.commons.3.5.0.4.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\allurecsharpcommons\\0.2.0\\allurecsharpcommons.0.2.0.nupkg.sha512",

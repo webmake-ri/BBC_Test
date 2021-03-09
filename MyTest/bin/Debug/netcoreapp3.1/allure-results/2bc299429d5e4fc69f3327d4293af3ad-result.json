@@ -1,0 +1,63 @@
+{
+  "uuid": "967a044b-c083-4f8d-a6a0-3ff1a89c6c70-tr-0-1003",
+  "historyId": "MyTest.Tests.UncorrectPasswordLoginTest",
+  "fullName": "MyTest.Tests.UncorrectPasswordLoginTest",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "WIN-4NQL73GRVUL"
+    },
+    {
+      "name": "testClass",
+      "value": "MyTest.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "UncorrectPasswordLoginTest"
+    },
+    {
+      "name": "package",
+      "value": "MyTest.Tests"
+    }
+  ],
+  "links": [],
+  "name": "UncorrectPasswordLoginTest",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "UncorrectPasswordLoginTest",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "7cd5b8abdca24fd996cecdea3786d6d5-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1615292828579,
+      "stop": 1615292849982
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1615292828579,
+  "stop": 1615292849982
+}

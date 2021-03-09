@@ -1,0 +1,72 @@
+{
+  "uuid": "b797dee4-c2c2-43bf-bb08-0e2c9bc1d761-tr-0-1001",
+  "historyId": "MyTest.Tests.CorrectLoginTest",
+  "fullName": "MyTest.Tests.CorrectLoginTest",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "WIN-4NQL73GRVUL"
+    },
+    {
+      "name": "testClass",
+      "value": "MyTest.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "CorrectLoginTest"
+    },
+    {
+      "name": "package",
+      "value": "MyTest.Tests"
+    }
+  ],
+  "links": [],
+  "name": "CorrectLoginTest",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  String lengths are both 11. Strings differ at index 10.\r\n  Expected: \"Login Test2\"\r\n  But was:  \"Login Test1\"\r\n  ---------------------^\r\n",
+    "trace": "   at MyTest.Tests.CorrectLoginTest() in F:\\рома\\Visual\\TestProject\\BBC\\MyTest\\MyTest\\Tests\\BaseTest.cs:line 34\r\n"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "CorrectLoginTest",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  String lengths are both 11. Strings differ at index 10.\r\n  Expected: \"Login Test2\"\r\n  But was:  \"Login Test1\"\r\n  ---------------------^\r\n",
+        "trace": "   at MyTest.Tests.CorrectLoginTest() in F:\\рома\\Visual\\TestProject\\BBC\\MyTest\\MyTest\\Tests\\BaseTest.cs:line 34\r\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Screenshot [14:17:52]",
+          "source": "a35e810f1b1249399c80cbc910083f5b-attachment",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "42b85316960d496d9779e72f6cfa4570-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1615288636714,
+      "stop": 1615288675051
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1615288636711,
+  "stop": 1615288675068
+}

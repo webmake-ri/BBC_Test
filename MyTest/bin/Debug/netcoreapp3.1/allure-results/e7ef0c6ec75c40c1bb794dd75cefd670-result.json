@@ -1,0 +1,63 @@
+{
+  "uuid": "07dfc311-4c60-461b-a436-a1c2ceaa742f-tr-0-1006",
+  "historyId": "MyTest.Tests.LogoutTest",
+  "fullName": "MyTest.Tests.LogoutTest",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "WIN-4NQL73GRVUL"
+    },
+    {
+      "name": "testClass",
+      "value": "MyTest.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "LogoutTest"
+    },
+    {
+      "name": "package",
+      "value": "MyTest.Tests"
+    }
+  ],
+  "links": [],
+  "name": "LogoutTest",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "LogoutTest",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "a7d6d92f5c0c43499dda0bcc071adab7-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1615292462824,
+      "stop": 1615292491888
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1615292462824,
+  "stop": 1615292491889
+}

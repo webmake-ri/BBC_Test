@@ -1,0 +1,44 @@
+{
+  "uuid": "d45d3814-3b85-4950-aa68-ea901334402c-tc-0-1000",
+  "name": "MyTest.Tests.UncorrectEmailLoginTest",
+  "children": [
+    "a18d1974-b437-451d-9811-688ee94554b1-tr-0-1005"
+  ],
+  "befores": [
+    {
+      "name": "BeforeTest",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1615290244204,
+      "stop": 1615290244204
+    }
+  ],
+  "afters": [
+    {
+      "name": "AfterTest",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1615290244204,
+      "stop": 1615290244204
+    }
+  ],
+  "links": [],
+  "start": 1615290227406,
+  "stop": 1615290244212
+}

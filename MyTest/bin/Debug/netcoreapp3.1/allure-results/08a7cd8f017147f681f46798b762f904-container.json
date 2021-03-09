@@ -1,0 +1,44 @@
+{
+  "uuid": "7db772ac-5af4-4674-8f4c-f3d765cbf3ba-tc-0-1000",
+  "name": "MyTest.Tests.EditUserNameTest",
+  "children": [
+    "9ce3f6a7-9562-4834-9bb6-cf7bd75b8060-tr-0-1008"
+  ],
+  "befores": [
+    {
+      "name": "BeforeTest",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1615292418737,
+      "stop": 1615292418737
+    }
+  ],
+  "afters": [
+    {
+      "name": "AfterTest",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1615292418737,
+      "stop": 1615292418737
+    }
+  ],
+  "links": [],
+  "start": 1615292375766,
+  "stop": 1615292418743
+}

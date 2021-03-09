@@ -1,0 +1,63 @@
+{
+  "uuid": "96aac650-5ccb-4738-a40f-213843e4c0fd-tr-0-1004",
+  "historyId": "MyTest.Tests.EmptyEmailLoginTest",
+  "fullName": "MyTest.Tests.EmptyEmailLoginTest",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "WIN-4NQL73GRVUL"
+    },
+    {
+      "name": "testClass",
+      "value": "MyTest.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "EmptyEmailLoginTest"
+    },
+    {
+      "name": "package",
+      "value": "MyTest.Tests"
+    }
+  ],
+  "links": [],
+  "name": "EmptyEmailLoginTest",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "EmptyEmailLoginTest",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "a9dd73c42a9845ef92102fa42ad1b8fe-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1615288820247,
+      "stop": 1615288847234
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1615288820246,
+  "stop": 1615288847235
+}

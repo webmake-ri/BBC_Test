@@ -1,0 +1,63 @@
+{
+  "uuid": "58c8ca52-6ab3-4172-af49-8fd30e4aacb4-tr-0-1002",
+  "historyId": "MyTest.Tests.EmptyPasswordLoginTest",
+  "fullName": "MyTest.Tests.EmptyPasswordLoginTest",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "WIN-4NQL73GRVUL"
+    },
+    {
+      "name": "testClass",
+      "value": "MyTest.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "EmptyPasswordLoginTest"
+    },
+    {
+      "name": "package",
+      "value": "MyTest.Tests"
+    }
+  ],
+  "links": [],
+  "name": "EmptyPasswordLoginTest",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "EmptyPasswordLoginTest",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "2b4cdd0a3a4a4be29a20aa0ad945394c-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1615292443390,
+      "stop": 1615292462799
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1615292443389,
+  "stop": 1615292462800
+}

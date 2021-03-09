@@ -1,0 +1,72 @@
+{
+  "uuid": "d933e477-0b96-486d-95c0-ef3b2de1b292-tr-0-1007",
+  "historyId": "MyTest.Tests.OpenNewsPageTest",
+  "fullName": "MyTest.Tests.OpenNewsPageTest",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "WIN-4NQL73GRVUL"
+    },
+    {
+      "name": "testClass",
+      "value": "MyTest.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "OpenNewsPageTest"
+    },
+    {
+      "name": "package",
+      "value": "MyTest.Tests"
+    }
+  ],
+  "links": [],
+  "name": "OpenNewsPageTest",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  Expected string length 24 but was 20. Strings differ at index 20.\r\n  Expected: \"https://www.bbc.com/news\"\r\n  But was:  \"https://www.bbc.com/\"\r\n  -------------------------------^\r\n",
+    "trace": "   at MyTest.Tests.OpenNewsPageTest() in C:\\Users\\admin\\Desktop\\bc\\MyTest\\Tests\\BaseTest.cs:line 79\r\n"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "OpenNewsPageTest",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  Expected string length 24 but was 20. Strings differ at index 20.\r\n  Expected: \"https://www.bbc.com/news\"\r\n  But was:  \"https://www.bbc.com/\"\r\n  -------------------------------^\r\n",
+        "trace": "   at MyTest.Tests.OpenNewsPageTest() in C:\\Users\\admin\\Desktop\\bc\\MyTest\\Tests\\BaseTest.cs:line 79\r\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Screenshot [15:03:32]",
+          "source": "13ec8eeb4bbc4f8caf360bb0c1b80f27-attachment",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "ead130e33e02476c8752e6191e96decb-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1615291377847,
+      "stop": 1615291419382
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1615291377844,
+  "stop": 1615291419399
+}
