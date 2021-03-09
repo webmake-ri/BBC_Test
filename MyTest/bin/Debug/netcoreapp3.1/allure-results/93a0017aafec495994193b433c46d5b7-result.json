@@ -1,0 +1,63 @@
+{
+  "uuid": "0d51dfc2-9419-440b-9981-92629af61434-tr-0-1005",
+  "historyId": "MyTest.Tests.UncorrectEmailLoginTest",
+  "fullName": "MyTest.Tests.UncorrectEmailLoginTest",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "WIN-4NQL73GRVUL"
+    },
+    {
+      "name": "testClass",
+      "value": "MyTest.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "UncorrectEmailLoginTest"
+    },
+    {
+      "name": "package",
+      "value": "MyTest.Tests"
+    }
+  ],
+  "links": [],
+  "name": "UncorrectEmailLoginTest",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "UncorrectEmailLoginTest",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "905310b859cd43f789c83066ec737055-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1615284707512,
+      "stop": 1615284731022
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1615284707512,
+  "stop": 1615284731023
+}

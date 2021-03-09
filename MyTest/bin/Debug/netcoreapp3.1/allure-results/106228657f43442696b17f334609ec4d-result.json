@@ -1,0 +1,63 @@
+{
+  "uuid": "11660f4b-de6f-4b7a-a3c2-23cc2a490e83-tr-0-1007",
+  "historyId": "MyTest.Tests.OpenHomePageTest",
+  "fullName": "MyTest.Tests.OpenHomePageTest",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "WIN-4NQL73GRVUL"
+    },
+    {
+      "name": "testClass",
+      "value": "MyTest.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "OpenHomePageTest"
+    },
+    {
+      "name": "package",
+      "value": "MyTest.Tests"
+    }
+  ],
+  "links": [],
+  "name": "OpenHomePageTest",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "OpenHomePageTest",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "ea4ff024d2aa4296b9358366fd12e2e3-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1615284677722,
+      "stop": 1615284707505
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1615284677721,
+  "stop": 1615284707505
+}
