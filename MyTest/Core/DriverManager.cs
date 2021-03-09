@@ -25,8 +25,8 @@ namespace MyTest.Core
                 ChromeOptions options = new ChromeOptions();
                 options.AddArgument("--start-maximized");
                 options.AddArgument("no--sandbox");
-                driver = new ChromeDriver(ChromeDriverService.CreateDefaultService(), options, TimeSpan.FromMinutes(3));
-                driver.Manage().Timeouts().PageLoad.Add(System.TimeSpan.FromSeconds(30));
+                driver = new ChromeDriver(options);
+                driver.Manage().Timeouts().PageLoad.Add(System.TimeSpan.FromMinutes(3));
             }
 
             EventFiringWebDriver eventsDriver = new EventFiringWebDriver(driver);
