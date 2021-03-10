@@ -1,0 +1,63 @@
+{
+  "uuid": "e9bceeed-1b1d-49db-9b7b-0933eff6b521-tr-0-1001",
+  "historyId": "MyTest.Tests.CorrectLoginTest",
+  "fullName": "MyTest.Tests.CorrectLoginTest",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "WIN-4NQL73GRVUL"
+    },
+    {
+      "name": "testClass",
+      "value": "MyTest.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "CorrectLoginTest"
+    },
+    {
+      "name": "package",
+      "value": "MyTest.Tests"
+    }
+  ],
+  "links": [],
+  "name": "CorrectLoginTest",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "CorrectLoginTest",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "bd29f453150c44f3b6c64f6fb61ad891-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1615365752232,
+      "stop": 1615365775083
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1615365752230,
+  "stop": 1615365775098
+}

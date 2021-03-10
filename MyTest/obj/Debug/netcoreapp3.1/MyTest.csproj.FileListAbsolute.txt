@@ -210,3 +210,4 @@ C:\Users\admin\Desktop\bc\MyTest\obj\Debug\netcoreapp3.1\MyTest.csproj.CopyCompl
 C:\Users\admin\Desktop\bc\MyTest\obj\Debug\netcoreapp3.1\MyTest.dll
 C:\Users\admin\Desktop\bc\MyTest\obj\Debug\netcoreapp3.1\MyTest.pdb
 C:\Users\admin\Desktop\bc\MyTest\obj\Debug\netcoreapp3.1\MyTest.genruntimeconfig.cache
+C:\Users\admin\Desktop\bc\MyTest\obj\Debug\netcoreapp3.1\MyTest.csprojAssemblyReference.cache
