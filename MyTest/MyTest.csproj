@@ -7,7 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Remove="C:\Users\admin\.nuget\packages\allure.commons\3.5.0.4\contentFiles\any\netstandard2.0\allureConfig.Template.json" />
+    <Content Remove="$(ProjectDir)\bin\Debug\netcoreapp3.1\allureConfig.json" />
   </ItemGroup>
 
   <ItemGroup>
