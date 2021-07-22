@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\admin\\Desktop\\bc\\MyTest\\MyTest.csproj": {}
+    "C:\\Andersen\\DemoUI\\BBC_Test\\MyTest\\MyTest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\admin\\Desktop\\bc\\MyTest\\MyTest.csproj": {
+    "C:\\Andersen\\DemoUI\\BBC_Test\\MyTest\\MyTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\admin\\Desktop\\bc\\MyTest\\MyTest.csproj",
+        "projectUniqueName": "C:\\Andersen\\DemoUI\\BBC_Test\\MyTest\\MyTest.csproj",
         "projectName": "MyTest",
-        "projectPath": "C:\\Users\\admin\\Desktop\\bc\\MyTest\\MyTest.csproj",
-        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\admin\\Desktop\\bc\\MyTest\\obj\\",
+        "projectPath": "C:\\Andersen\\DemoUI\\BBC_Test\\MyTest\\MyTest.csproj",
+        "packagesPath": "C:\\Users\\anduser\\.nuget\\packages\\",
+        "outputPath": "C:\\Andersen\\DemoUI\\BBC_Test\\MyTest\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\anduser\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -42,7 +46,7 @@
           "dependencies": {
             "Allure.Commons": {
               "target": "Package",
-              "version": "[3.5.0.4, )"
+              "version": "[3.5.0.65, )"
             },
             "AllureCSharpCommons": {
               "target": "Package",
@@ -54,19 +58,19 @@
             },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
-              "version": "[16.9.1, )"
+              "version": "[16.10.0, )"
             },
             "NUnit": {
               "target": "Package",
-              "version": "[3.13.1, )"
+              "version": "[3.13.2, )"
             },
             "NUnit.Allure": {
               "target": "Package",
-              "version": "[1.0.12, )"
+              "version": "[1.0.14, )"
             },
             "NUnit3TestAdapter": {
               "target": "Package",
-              "version": "[3.17.0, )"
+              "version": "[4.0.0, )"
             },
             "Selenium.Support": {
               "target": "Package",
@@ -78,7 +82,7 @@
             },
             "Selenium.WebDriver.ChromeDriver": {
               "target": "Package",
-              "version": "[89.0.4389.2300, )"
+              "version": "[92.0.4515.4300, )"
             }
           },
           "imports": [
@@ -96,7 +100,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

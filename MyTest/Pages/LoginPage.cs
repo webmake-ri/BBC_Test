@@ -15,7 +15,7 @@ namespace MyTest.Pages
         private readonly By _passwordInput = By.XPath("//input[contains(@type, 'password')]");
         private readonly By _enterButton = By.XPath("//button[contains(@class, 'button button--full-width')]");
         private readonly By _userNameSpan = By.XPath("//span[contains(@id, 'idcta-username')]");
-        private readonly By _singOutButton = By.XPath("//span[text() = 'Sign out']");
+        private readonly By _singOutButton = By.XPath("//span[contains(@class, 'primary-nav__item-text')][text() = 'Sign out']");
         private readonly By _settingsButton = By.XPath("//a[contains(@class, 'button')and(text()='Continue to settings')]");
         private readonly By _settingsUserName = By.XPath("//div[contains(@class, 'field__label')and(text()='Display name')]/preceding-sibling::div[contains(@class, 'field__input')]");
         private readonly By _editUserNameButton = By.XPath("//a[contains(@aria-label, 'Edit Display name')]");
@@ -57,16 +57,6 @@ namespace MyTest.Pages
             WaitForDisplayedAndClicable(_singOutButton);
             GetWebElement(_singOutButton).Click();
             WaitForDisplayed(_signInButton);
-        }
-        public void EditUserDisplayName(string nextUserName)
-        {
-            WaitForDisplayedAndClicable(_editUserNameButton);
-            GetWebElement(_editUserNameButton).Click();
-            WaitForDisplayed(_editUserNameInput);
-            GetWebElement(_editUserNameInput).Clear();
-            GetWebElement(_editUserNameInput).SendKeys(nextUserName);
-            WaitForDisplayedAndClicable(_editUserNameSubmit);
-            GetWebElement(_editUserNameSubmit).Click();            
         }
     }
 }

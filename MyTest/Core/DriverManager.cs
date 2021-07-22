@@ -25,7 +25,7 @@ namespace MyTest.Core
                 ChromeOptions options = new ChromeOptions();
                 options.AddArgument("--start-maximized");
                 options.AddArgument("no--sandbox");
-                options.AddArgument("--headless");
+                //options.AddArgument("--headless");
                 driver = new ChromeDriver(options);
                 driver.Manage().Timeouts().PageLoad.Add(System.TimeSpan.FromMinutes(3));
             }

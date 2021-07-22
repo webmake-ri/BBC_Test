@@ -9,8 +9,6 @@ namespace MyTest.Core
 { 
     class BasePage
     {
-        
-
         protected void Navigate(String url)
         {
             Driver.CurrentDriver.Navigate().GoToUrl(url);
@@ -18,18 +16,18 @@ namespace MyTest.Core
 
         public IWebElement GetWebElement(By locator)
         {
-            WebDriverWait wait = new WebDriverWait(Driver.CurrentDriver, TimeSpan.FromSeconds(30));
+            WebDriverWait wait = new WebDriverWait(Driver.CurrentDriver, TimeSpan.FromSeconds(40));
             wait.Until(ExpectedConditions.ElementToBeClickable(locator));
             return Driver.CurrentDriver.FindElement(locator);
         }
         public void WaitForClicable(By locator)
         {
-            WebDriverWait wait = new WebDriverWait(Driver.CurrentDriver, TimeSpan.FromSeconds(30));
+            WebDriverWait wait = new WebDriverWait(Driver.CurrentDriver, TimeSpan.FromSeconds(60));
             wait.Until(ExpectedConditions.ElementToBeClickable(locator));
         }
         public void WaitForDisplayed(By locator)
         {
-            WebDriverWait wait = new WebDriverWait(Driver.CurrentDriver, TimeSpan.FromSeconds(30));
+            WebDriverWait wait = new WebDriverWait(Driver.CurrentDriver, TimeSpan.FromSeconds(60));
             wait.Until((driver) => GetWebElement(locator).Displayed == true);
         }
         public void WaitForDisplayedAndClicable(By locator)
@@ -39,7 +37,7 @@ namespace MyTest.Core
         }
         public void WaitForEnabled(By locator)
         {
-            WebDriverWait wait = new WebDriverWait(Driver.CurrentDriver, TimeSpan.FromSeconds(30));
+            WebDriverWait wait = new WebDriverWait(Driver.CurrentDriver, TimeSpan.FromSeconds(40));
             wait.Until(driver => GetWebElement(locator).Enabled == true);
         }
     }
