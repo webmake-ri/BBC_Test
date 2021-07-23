@@ -22,7 +22,8 @@ namespace MyTest.Pages
         public string GetSearchText()
         {
             WaitForDisplayedAndClicable(_searchInput);
-            return GetWebElement(_searchInput).Text;
+            GetWebElement(_searchInput).Click();
+            return GetTextByElementValue(_searchInput);
         }
     }
 }

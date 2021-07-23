@@ -37,5 +37,16 @@ namespace MyTest
             searchPage.Search(Constants.Search_Text);
             Assert.AreEqual(Constants.Search_Text, searchPage.GetSearchText());
         }
+        [TearDown]
+        public void AfterTest()
+        {
+            var status = TestContext.CurrentContext.Result.Outcome.Status;
+            if (status == TestStatus.Failed)
+            {
+                Console.WriteLine("Test was failed");
+                Driver.MakeScreenShot();
+            }
+            Driver.Destroy();
+        }
     }
 }

@@ -69,12 +69,46 @@ namespace MyTest
             Assert.That(loginPage.GetWebElement(loginPage._signInButton).Displayed, Is.True);
         }
         [Test]
-        public void OpenSportPageTest()
+        public void SignUpUnder16()
         {
             mainPage.OpenStartUrl();
-            mainPage.OpenSportPage();
-            Console.WriteLine("URL страницы: " + Driver.driver.Url);
-            Assert.AreEqual(Constants.Sport_Url, Driver.driver.Url);
+            loginPage.SignUpGuardian();
+            Assert.AreEqual("Sorry, only 16s and over can register outside the UK", loginPage.GetErrorAgeMessage());
+        }
+        [Test]
+        public void SignUpUncorrectDate()
+        {
+            mainPage.OpenStartUrl();
+            loginPage.SignUpUncorrectDate();
+            Assert.That(loginPage.GetWebElement(loginPage._signUpErrorDateBirth).Displayed, Is.True);
+        }
+        [Test]
+        public void SignUpEmptyDate()
+        {
+            mainPage.OpenStartUrl();
+            loginPage.SignUpEmptyDate();
+            Assert.That(loginPage.GetWebElement(loginPage._signUpErrorDateBirth).Displayed, Is.True);
+        }
+        [Test]
+        public void SignUpExsistEmail()
+        {
+            mainPage.OpenStartUrl();
+            loginPage.SignUpCorrectDate();
+            Assert.That(loginPage.GetWebElement(loginPage._signUpErrorText).Displayed, Is.True);
+        }
+        [Test]
+        public void SignUpEmptyEmail()
+        {
+            mainPage.OpenStartUrl();
+            loginPage.SignUpEmptyEmail();
+            Assert.That(loginPage.GetWebElement(loginPage._signUpErrorText).Displayed, Is.True);
+        }
+        [Test]
+        public void SignUpEmptyPassword()
+        {
+            mainPage.OpenStartUrl();
+            loginPage.SignUpEmptyPassword();
+            Assert.That(loginPage.GetWebElement(loginPage._signUpErrorText).Displayed, Is.True);
         }
         [TearDown]
         public void AfterTest()
