@@ -69,9 +69,9 @@ namespace MyTest.Pages
         public void Logout()
         {
             WaitForDisplayedAndClicable(_userNameSpan);
-            GetWebElement(_userNameSpan).Click();
+            jsClickOnElement(_userNameSpan);
             WaitForDisplayedAndClicable(_singOutButton);
-            GetWebElement(_singOutButton).Click();
+            jsClickOnElement(_singOutButton);
             WaitForDisplayedAndClicable(_signInButton);
         }
         public void SignUpGuardian()
